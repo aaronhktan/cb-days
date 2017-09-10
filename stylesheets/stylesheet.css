@@ -7,15 +7,16 @@ html {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 
 #sentence {
-	font-size: 10em;
-	font-size: 10vw;
+	font-size: 8em;
+	font-size: 8vw;
 	font-family: arial, sans-serif;
 	font-weight: 600;
 	text-align: center;
-	display: block;
+	width: 95%;
 }
 
 #day {
@@ -24,7 +25,6 @@ html {
 	font-family: arial, sans-serif;
 	font-weight: 600;
 	text-align: center;
-	display: block;
 }
 
 #footer {
