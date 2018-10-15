@@ -20,7 +20,7 @@ function HTMLRequest(URL) {
 
 function getDay(addedDays) {
 	var start = moment().add(addedDays, 'days').startOf('day').format(), end = moment().add(addedDays, 'days').endOf('day').format();
-	var URL = 'https://www.googleapis.com/calendar/v3/calendars/ocdsb.ca_gkbg3nq10aereelvn6isf3r02s@group.calendar.google.com/events?key=AIzaSyAjadW_dG-vMWLeXhb_8YodtQ9r5Y23Hvc' + '&timeMin=' + start + '&timeMax=' + end;
+	var URL = 'https://www.googleapis.com/calendar/v3/calendars/ocdsb.ca_9lc41apmrj6npek85r8fd6fr00@group.calendar.google.com/events?key=AIzaSyAjadW_dG-vMWLeXhb_8YodtQ9r5Y23Hvc' + '&timeMin=' + start + '&timeMax=' + end;
 
 	HTMLRequest(URL).then(function(result) {
   	var data = JSON.stringify(result);
